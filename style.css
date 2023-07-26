@@ -1,0 +1,246 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #e0e0e6;
+    position: sticky;
+    top: 0%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: smaller;
+    margin: 0% auto;
+    padding: 10px;
+}
+
+#firstsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Apple Assest/apple1.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+#firstsecpara1 {
+    display: flex;
+    margin-top: 30px;
+    font-size: 50px;
+    gap: 30px;
+}
+
+#firstsecpara2 {
+    display: flex;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#anchor {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#anchor a {
+    text-decoration: none;
+    color: rgb(51, 161, 197);
+}
+
+#secondsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Apple Assest/apple2.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    color: black;
+
+}
+
+#secondsecpara1 {
+    display: flex;
+    margin-top: 30px;
+    font-size: 50px;
+    gap: 30px;
+}
+
+#secondsecpara2 {
+    display: flex;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+#anchor1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#anchor1 a {
+    text-decoration: none;
+    color: rgb(51, 161, 197);
+}
+
+#thirdsec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Apple Assest/apple3.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 230px;
+
+}
+
+#thirdsecpara1 {
+    display: flex;
+    margin-top: 30px;
+    font-size: 25px;
+    gap: 30px;
+    color: white;
+}
+
+#thirdsecpara2 {
+    display: flex;
+    font-size: 100px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #f8e90efa;
+}
+
+#thirdsecpara3 {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    
+}
+
+#anchor2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#anchor2 a {
+    text-decoration: none;
+    color: red;
+}
+
+#foursec {
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+#foursecleft {
+    width: 50%;
+    background-image: url('Apple Assest/apple4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#foursecleftpara1 {
+    display: flex;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+#foursecleftpara2 {
+    display: flex;
+    font-weight: lighter;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+#anchor3 {
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+    gap: 30px;
+} 
+
+#anchor3 a {
+    text-decoration: none;
+}
+
+#foursecright {
+    width: 50%;
+    background-image: url('Apple Assest/apple5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 310px;
+}
+
+#foursecrightpara1 {
+    display: flex;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+#foursecrightpara2 {
+    display: flex;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+#foursecrightpara3 {
+    display: flex;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(153, 131, 131, 0.973);
+}
+
+#anchor4 {
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+#anchor4 a {
+    text-decoration: none;
+}
+
+#fivesec {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+}
+
+#fivesecleft {
+    display: flex;
+    flex-direction: column;
+}
